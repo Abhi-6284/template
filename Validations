@@ -1,0 +1,8 @@
+// only digit control
+onkeypress="return event.charCode>=47 && event.charCode<=58"
+
+// on alfa control
+onkeypress="return event.charCode>=65 && event.charCode<=90" => [A-Z]
+onkeypress="return event.charCode>=97 && event.charCode<=122" => [a-z]
+onkeypress="return event.charCode>=65 && event.charCode<=90 || event.charCode>=97 && event.charCode<=122" => [a-zA-Z]"
+
